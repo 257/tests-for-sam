@@ -1,0 +1,14 @@
+# homed for userdbd see 56550596 at mkosi
+# sandbox/etc/portage/package.use/systemd cryptsetup REQUIRED_USE 'homed? ( cryptsetup )'
+sys-apps/systemd homed cryptsetup
+sys-apps/systemd audit bpf
+sys-apps/systemd boot kernel-install kmod ukify
+sys-apps/systemd elfutils
+sys-apps/systemd http remote curl
+sys-apps/systemd tpm
+# importd is for systemd-importd.service(8)
+# curl and lzma are required by importd
+# curl also enables support for uploading journals
+sys-apps/systemd importd lzma curl
+# avoid sys-apps/gentoo-systemd-integration
+sys-apps/systemd vanilla

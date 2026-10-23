@@ -1,0 +1,11 @@
+net-fs/nfs-utils
+net-fs/nfs4-acl-tools
+net-fs/autofs
+sys-fs/btrfs-progs
+sys-fs/ncdu
+# sys-apps/hdparm
+sys-apps/nvme-cli
+sys-block/hpssacli
+# app-misc/detox
+# for esp
+sys-fs/dosfstools

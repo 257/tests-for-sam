@@ -1,0 +1,23 @@
+net-analyzer/tcpdump
+net-analyzer/bandwhich
+# net-analyzer/jnettop
+sys-process/btop
+# net-analyzer/gping
+net-analyzer/mtr
+net-analyzer/lft
+sys-apps/iproute2
+net-misc/iputils
+# net-misc/ipcalc
+sys-apps/ethtool
+net-misc/iperf
+
+# use 9999's oxidised version of arp-scan; no need for perl
+# net-analyzer/arp-scan-rs
+
+# techincally we don't need this since systemd-networkd is going to be handling
+# this for us but i'm used to `wg(8)`'s interface.
+# remove when and if `networkctl(1)` gives us something *cool*
+net-vpn/wireguard-tools
+
+# skip nftables
+# net-firewall/bpfilter

@@ -1,0 +1,10 @@
+sys-apps/pciutils
+sys-apps/lshw
+sys-apps/usbutils
+sys-apps/dmidecode
+sys-apps/ripgrep
+sys-apps/bat
+sys-apps/fwupd
+# these have savedconfig's
+sys-firmware/intel-microcode
+sys-kernel/linux-firmware
