@@ -11,13 +11,13 @@ usage() {
 
 get_9999() {
 	# TODO: possibly warn for sudo here
-	sudo eselect repository enable 9999
-	sudo emaint sync -r 9999
+	sudo eselect repository enable 9999 || true
+	sudo emaint sync -r 9999 || true
 }
 
 fetch_stage3() {
 	# FIXME: this is bound to fail
-	sudo emerge -1 '=app-admin/mkosi-9999::9999'
+	sudo emerge -1 '=app-admin/mkosi-9999::9999' || true
 	mkosi-getstage3
 }
 
