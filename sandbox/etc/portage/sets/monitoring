@@ -1,7 +1,0 @@
-# net-analyzer/check_mk_agent
-net-analyzer/net-snmp
-sys-process/atop
-# sys-process/audit
-# net-analyzer/nagios
-# net-analyzer/nagios-plugins
-# net-analyzer/nagios-plugins-snmp

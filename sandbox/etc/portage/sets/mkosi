@@ -1,20 +1,2 @@
-@world
-app-alternatives/cpio
-app-portage/eix
-dev-vcs/git
-sys-fs/erofs-utils
-dev-lang/rust-bin
-# kbuild
-app-alternatives/bc
-sys-libs/libcap
-dev-python/semver # for configure script and kbuild
-dev-util/pahole # BTF
-dev-libs/libbpf # BTF
-# /usr/src/linux/tools/objtool/include/objtool/arch.h:113:10: fatal error: bfd.h: No such file or directory
-#  113 | #include <bfd.h>
-sys-libs/binutils-libs
-# for depmod
-sys-apps/kmod
-
 sec-keys/openpgp-keys-gentoo-release
 sec-keys/openpgp-keys-gentoo-developers
