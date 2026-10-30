@@ -27,9 +27,15 @@ build() {
 }
 
 main() {
-	# check if user needs 9999
-	get_9999 && fetch_stage3
-	build
+	##  uncomment the following to fetch stage3
+	##  otherwise modify `ToolsTree=` and point it to your stage3
+	# fetch_stage3
+ 	##  uncomment this if you want to use and you don't have it installed
+ 	##  mkosi
+	# get_9999
+	## uncomment this to build with mkosi; otherwise see the list of
+	## `Packages=` define in ## `mkosi.images/base/mkosi.conf`
+	# build
 }
 
 main
